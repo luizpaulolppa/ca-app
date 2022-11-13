@@ -5,11 +5,12 @@ import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 type IItemMenu = {
   name: string
   iconName: string
+  onPress?: () => void
 }
 
-export function ItemMenu({ name, iconName }: IItemMenu) {
+export function ItemMenu({ name, iconName, onPress }: IItemMenu) {
   return (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={onPress}>
       <View style={styles.containerText}>
         <Icon name={iconName} size={32} color="#933C85" />
         <Text style={styles.text}>{name}</Text>
