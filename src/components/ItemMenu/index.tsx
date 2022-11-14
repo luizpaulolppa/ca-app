@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
     padding: 16,
     borderColor: '#E0E0E0',
     borderWidth: 1,
-    shadowColor: 'rgba(0, 0, 0, 0.0507539)',
   },
   containerText: {
     flexDirection: 'row',
