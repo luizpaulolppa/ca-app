@@ -14,7 +14,7 @@ export function UserCard() {
           <Image style={styles.logo} source={logoCard} />
         </View>
         <View>
-          <Text style={styles.text}>Giovana Vendramini</Text>
+          <Text style={styles.text}>Luiz Paulo Pilegi de Almeida</Text>
           <Text style={styles.text}>132.465.768-09</Text>
           <Text style={{ ...styles.text, marginTop: 8 }}>
             ALLIAR MÉDICOS A FRENTE

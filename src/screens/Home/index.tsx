@@ -9,7 +9,7 @@ export function Home({ navigation }) {
     <SafeAreaView>
       <ScrollView style={styles.containerScroll}>
         <View style={styles.container}>
-          <Text style={styles.welcome}>Olá Giovana!</Text>
+          <Text style={styles.welcome}>Olá Luiz!</Text>
           <UserCard />
           <SubscriptionStatus />
           <ItemMenu
