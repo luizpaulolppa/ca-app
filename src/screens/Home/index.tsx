@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, ScrollView, StyleSheet, View } from "react-native";
+import { SafeAreaView, ScrollView, StyleSheet, View, Text } from "react-native";
 import { ItemMenu } from "../../components/ItemMenu";
 import { SubscriptionStatus } from "../../components/SubscriptionStatus";
 import { UserCard } from "../../components/UserCard";
@@ -9,6 +9,7 @@ export function Home({ navigation }) {
     <SafeAreaView>
       <ScrollView style={styles.containerScroll}>
         <View style={styles.container}>
+          <Text style={styles.welcome}>Olá Giovana!</Text>
           <UserCard />
           <SubscriptionStatus />
           <ItemMenu
@@ -35,4 +36,8 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   containerScroll: {},
+  welcome: {
+    fontSize: 22,
+    marginBottom: 16,
+  }
 });
