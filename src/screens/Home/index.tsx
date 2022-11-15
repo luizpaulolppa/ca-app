@@ -18,10 +18,11 @@ export function Home({ navigation }) {
           </View>
           <UserCard />
           <SubscriptionStatus />
-          <ItemMenu name="Dados pessoais" iconName="person" />
+          <ItemMenu name="Dados Pessoais" iconName="person" />
           <ItemMenu name="Dependentes" iconName="people" />
           <ItemMenu name="Endereço" iconName="home" />
-          <ItemMenu name="Alterar senha" iconName="lock" />
+          <ItemMenu name="Seguro de Vida" iconName="shield-check" />
+          <ItemMenu name="Alterar Senha" iconName="lock" />
           <ItemMenu
             name="Sair"
             iconName="sign-out"
